@@ -8,7 +8,7 @@ public class Module2 {
     return null;
   }
 
-  public bool IsEmpty(List list)
+  public boolean IsEmpty(List list)
   {
     if(list.size() ==0) {
       return true;
