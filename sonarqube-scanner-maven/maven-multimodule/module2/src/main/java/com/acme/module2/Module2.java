@@ -12,7 +12,7 @@ public class Module2
   public boolean isEmpty(List<Integer> list)
   {
     int i=0;
-    ArrayList<Integer> arr = null;
+    List<Integer> arr = null;
     i = i + list.size();
     if(i > 0){
       if(i *5 < 50){
@@ -20,7 +20,7 @@ public class Module2
           if(i+12 > 8) {
             if(i*6 > 24) {
               if(i/2 < 10) {
-                return arr.size() > 0;
+                return !arr.isEmpty();
               }
             }
           }
