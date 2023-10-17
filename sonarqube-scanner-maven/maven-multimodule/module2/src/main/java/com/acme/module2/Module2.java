@@ -2,21 +2,15 @@ package com.acme.module2;
 
 import java.util.List;
 
-public class Module2 {
-
+public class Module2
+{
   public List getList() {
     return null;
   }
 
-  public boolean IsEmpty(List list)
+  public boolean isEmpty<T>(List<T> list)
   {
-    if(list.size() ==0) {
-      return true;
-    }
-    else
-    {
-      return false;
-    }
+    return list.isEmpty();
   }
 
   public boolean simpleTest2(){
