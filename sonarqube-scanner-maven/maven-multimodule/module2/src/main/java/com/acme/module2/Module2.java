@@ -8,9 +8,26 @@ public class Module2
     return null;
   }
 
+
   public boolean isEmpty(List<Integer> list)
   {
-    return list.isEmpty();
+    int i=0;
+    ArrayList<Integer> arr = null;
+    i = i + list.size();
+    if(i > 0){
+      if(i *5 < 50){
+        if(i-2 > 2) {
+          if(i+12 > 8) {
+            if(i*6 > 24) {
+              if(i/2 < 10) {
+                return arr.size() > 0;
+              }
+            }
+          }
+        }
+      }
+    }
+    return i == 0;
   }
 
   public boolean simpleTest2(){
