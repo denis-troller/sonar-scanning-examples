@@ -8,6 +8,17 @@ public class Module2 {
     return null;
   }
 
+  public bool IsEmpty(List list)
+  {
+    if(list.size() ==0) {
+      return true;
+    }
+    else
+    {
+      return false;
+    }
+  }
+
   public boolean simpleTest2(){
     return getList().size() > 10;
   }
