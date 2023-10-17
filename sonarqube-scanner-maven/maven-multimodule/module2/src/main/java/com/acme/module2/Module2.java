@@ -8,7 +8,7 @@ public class Module2
     return null;
   }
 
-  public boolean isEmpty<T>(List<T> list)
+  public boolean isEmpty(List<Integer> list)
   {
     return list.isEmpty();
   }
