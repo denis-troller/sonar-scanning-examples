@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Module2
 {
-  public List getList() {
+  public List<Integer> getList() {
     return null;
   }
 
