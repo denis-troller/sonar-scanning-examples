@@ -2,10 +2,32 @@ package com.acme.module2;
 
 import java.util.List;
 
-public class Module2 {
-
-  public List getList() {
+public class Module2
+{
+  public List<Integer> getList() {
     return null;
+  }
+
+
+  public boolean isEmpty(List<Integer> list)
+  {
+    int i=0;
+    List<Integer> arr = null;
+    i = i + list.size();
+    if(i > 0){
+      if(i *5 < 50){
+        if(i-2 > 2) {
+          if(i+12 > 8) {
+            if(i*6 > 24) {
+              if(i/2 < 10) {
+                return !arr.isEmpty();
+              }
+            }
+          }
+        }
+      }
+    }
+    return i == 0;
   }
 
   public boolean simpleTest2(){
